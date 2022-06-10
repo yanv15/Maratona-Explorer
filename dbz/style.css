@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+            
+    position: relative;
+    font-family: Arial, sans-serif;
+    font-size: 15pt; 
+    background-image: url(img/max3.jpg);
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    margin: none;
+    padding: none;
+}
+
+
+div#caixa{
+    position: relative;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: 1px solid rgba(0, 0, 0, 1.0);
+    color: #ffffff;
+    width: 600px;
+    height: 500px;
+    left: 390px;
+    top: 15px;
+    
+    
+}
+
+img#esfera{
+    margin-top: 10px;
+}
+
+
+button{
+    position: relative;
+    text-align: center;
+    background-color: red;
+    border-radius: 4px;
+    border: none;
+    color: #ffffff;
+    font-size: 14pt;
+    height: 65px;
+    width: 350px;
+    top: 20px;
+    left: 10px;
+}
+
+button:hover{
+    filter: brightness(1.8);
+    cursor: pointer;
+}
+
+
+input{
+position: relative;
+
+height: 50px;
+width: 345px;
+text-align: left;
+border-radius: 1px;
+font-size: 14pt;
+top: 10px;
+left: 10px;
+
+
+}
+
+h1{
+text-align: center;
+margin-top: 5px;
+margin-bottom: -10px;
+
+}
+
+h3#resposta{
+    margin-top: 40px;
+    text-align: center;
+    color:black;
+    font: size 12px;
+}
+
+/*opacity deixa a letra mais clara*/
+p{
+
+    color: #ffffff ;
+    text-align: center;
+    margin-top: 20px;
+    opacity: 0.7;
+}
+
+#resposta {
+    margin-top: 30px;
+    transition: opacity 1s;
+  }
+  
+#resposta div{
+    font-size: 16px;
+    font-weight: normal;
+    opacity: 0.9;
+    margin-bottom: 10px;
+  }
